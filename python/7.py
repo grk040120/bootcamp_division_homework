@@ -4,7 +4,18 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    year=int(input('연도 입력 : '))
+    month=int(input('월 입력 : '))
+    if month==4 or month==6 or month==9 or month==11 :
+        days=30
+    if month==2 :
+        if (year%4==0 and year%100!=0) or year%400==0 :
+             days=29
+        else :
+            days=28
+    else :
+        days=31
+    print(days)
 
     return
 

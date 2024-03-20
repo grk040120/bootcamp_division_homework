@@ -4,7 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    number1=input("첫 번째 정수 입력 : ")
+    number2=input("두 번째 정수 입력 : ")
+    number3=input("세 번째 정수 입력 : ")
+
+    print(number3,number2,number1)
+
 
     return
 

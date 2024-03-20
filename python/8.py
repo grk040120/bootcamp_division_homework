@@ -4,7 +4,13 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    number=int(input('12 이하의 자연수 입력 : '))
+    s=1
+    for i in range(1,number+1) :
+        s=s*i
+
+    print('{}! = {}'.format(number,s))
+
 
     return
 

@@ -4,7 +4,15 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    n=int(input('양의 정수 입력 : '))
+    s=0
+    if n > 0 :
+        for i in range(n+1) :
+            s=s+i
+        print('합 : ',s)
+    else :
+        print('X') 
+
 
     return
 

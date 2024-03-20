@@ -4,10 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
+    time=int(input("시간 입력 : "))
+    if  time < 12 :
+        print("AM")
+    else :
+        print("PM")
     return
-
 
 if __name__ == '__main__':
     main()
