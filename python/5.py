@@ -6,7 +6,7 @@
 def main():
     age=int(input('나이 입력 : '))
     height=int(input('키 입력 : '))
-    if age < 14 and height < 160 :
+    if age < 14 and height < 160:
         print("O")
     else :
         print("X")

@@ -4,11 +4,11 @@
 """
 
 def main():
-    number1=input("첫 번째 정수 입력 : ")
-    number2=input("두 번째 정수 입력 : ")
-    number3=input("세 번째 정수 입력 : ")
+    num1=input("첫 번째 정수 입력 : ")
+    num2=input("두 번째 정수 입력 : ")
+    num3=input("세 번째 정수 입력 : ")
 
-    print(number3,number2,number1)
+    print(num3,num2,num1)
 
 
     return

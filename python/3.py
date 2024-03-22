@@ -4,8 +4,8 @@
 """
 
 def main():
-    time=int(input("시간 입력 : "))
-    if  time < 12 :
+    time_=int(input("시간 입력 : "))
+    if  time_ < 12 :
         print("AM")
     else :
         print("PM")

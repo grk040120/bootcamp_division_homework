@@ -4,8 +4,8 @@
 """
 
 def main():
-    alphabet=input('알파벳 입력 : ')
-    if alphabet == 'a' or alphabet == 'e' or alphabet == 'i' or alphabet == 'o' or alphabet == 'u' :
+    alpha=input('알파벳 입력 : ')
+    if alpha == 'a' or alpha == 'e' or alpha == 'i' or alpha == 'o' or alpha == 'u' :
         print("O")
     else :
         print("X")

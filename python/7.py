@@ -8,7 +8,7 @@ def main():
     month=int(input('월 입력 : '))
     if month==4 or month==6 or month==9 or month==11 :
         days=30
-    if month==2 :
+    if month==2:
         if (year%4==0 and year%100!=0) or year%400==0 :
              days=29
         else :

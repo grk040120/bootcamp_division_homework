@@ -6,7 +6,8 @@
 def main():
     age=int(input("나이를 입력하세요"))
     if  age > 60:
-        print("DISCOUNT\n","BOARD")
+        print("DISCOUNT")
+        print("BOARD")
     else:
         print("BOARD")
     return
